@@ -1,0 +1,166 @@
+
+
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  margin: 0px;
+  padding: 0px;
+  display: block;
+  width: 100%;
+  overflow: scroll;
+}
+
+/* Header */
+
+header {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 70px;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+}
+
+.logo img {
+  width: 160px;
+  height: 50px;
+  margin-left: 10px;
+}
+
+nav {
+  text-align: right;
+  flex-grow: 1;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+  text-decoration: underline;
+}
+
+/* Main Content */
+
+container1 {
+  display: flex;
+  background-image: url("../images/img-mission-background.jpg");
+  height: 770px;
+  width: 1200px;
+  align-items: center;
+  margin: 0px;
+}
+
+.mission {
+  display: block;
+  width: 1200px;
+  background-color: black;
+  text-align: center;
+}
+
+.mission h2 {
+  margin-top: 15px;
+}
+
+.mission h4 {
+  margin-bottom: 15px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Tea and Donuts Section */
+
+container2 {
+  display: inline-flex;
+  width: 1200px;
+  height: 700px;
+  margin: 50px 0px 0px 50px;
+  flex-flow: wrap;
+  justify-content: center;
+}
+
+.header2 {
+  display: block;
+  background-color: black;
+  text-align: center;
+  width: 1000px;
+  height: 150px;
+}
+
+.item img {
+  width: 300px;
+  height: 200px;
+  padding: 0px;
+  margin: none;
+}
+
+.item {
+  display: block;
+  text-align: center;
+  margin: 0px 15px;
+}
+
+.item h4 {
+  width: 300px;
+  height: 20px;
+  margin-top: 10px
+}
+
+/* Locations Section */
+
+container3 {
+  display: flex;
+  flex-direction: column;
+  background-image: url("../images/img-locations-background.jpg");
+  height: 500px;
+  width: 1200px;
+  padding-top: 70px;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.locations h2 {
+  margin: 0px 0px 15px 0px;
+}
+
+.addresses {
+  display: flex;
+  flex-direction: row;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  opacity: 1;
+  width: 300px;
+  height: 300px;
+  margin: 0px 20px 0px 20px;
+}
+
+/* Footer */
+
+footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact {
+  display: block;
+  text-align: center;
+  height: 200px;
+  width: 1200px;
+}
+
+.copyright {
+  display: block;
+  text-align: left;
+  margin-left: 20px;
+}
